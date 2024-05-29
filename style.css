@@ -19,3 +19,95 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Inter;
+    background-color: var(--OffBlack);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.card{
+    max-width: 400px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    background-color: var(--DarkGrey);
+
+}
+
+img{
+    border-radius: 100%;
+    display: block;
+    width: 120px;
+    margin-inline: auto;
+}
+
+.informations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: var(--White);
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#localization{
+    color: var(--Green);
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#job{
+    color: var(--White);
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+
+.buttons{
+
+    display: block;
+    padding: 20px 20px 20px 20px;
+    background-color: var(--Grey);
+    border-radius: 5px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--White);
+
+}
+
+.buttons:hover{
+    background-color: var(--Green);
+    transition: 0.9s;
+}
+a:hover{
+    color: var(--Grey)
+}
+
+
